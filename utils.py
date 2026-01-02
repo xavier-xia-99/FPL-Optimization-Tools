@@ -95,7 +95,7 @@ def cached_request(url):
         try:
             with open(CACHE_FILE) as f:
                 cache = json.load(f)
-        except (json.JSONDecodeError, IOError):
+        except (json.JSONDecodeError, OSError):
             # If cache is corrupted, start fresh
             cache = {}
 
