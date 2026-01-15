@@ -9,7 +9,6 @@ import textwrap
 import time
 
 import pandas as pd
-import requests
 from tabulate import tabulate
 
 from dev.solver import generate_team_json, prep_data, solve_multi_period_fpl

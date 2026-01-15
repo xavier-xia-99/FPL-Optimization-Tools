@@ -5,7 +5,6 @@ from unicodedata import combining, normalize
 
 import numpy as np
 import pandas as pd
-import requests
 from fuzzywuzzy import fuzz
 
 from paths import DATA_DIR
